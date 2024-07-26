@@ -1,10 +1,30 @@
 # Exercício de Casa 🏠 
 
-## Nome do Exercicio
+## Objetivo
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+Realizar uma análise estatística descritiva dos dados de vendas.
+
+## Descrição do Desafio
+
+Suponha que você trabalhe em uma equipe de vendas e recebeu uma lista de vendas fictícias de diferentes produtos ao longo de vários meses. Seu objetivo é realizar uma análise estatística descritiva dos valores das vendas.
+
+## Conjunto de Dados
+Os dados estão disponíveis em formato csv (‘vendas_ficticias.csv’) e contêm as seguintes informações para cada venda:
+•	Data da venda
+•	Valor da venda
+•	Vendedor
+•	Quantidade vendida
+•	Produto
+
+## Perguntas para responder
+1.	Calcular a média, mediana, mínimo, máximo e desvio padrão dos valores das vendas e quantidade vendida.
+2.	Qual produto que mais vendeu? (Usar a moda para identificar).
+
+## Entrega do Desafio
+1.	Utilize a linguagem de programação Python para realizar a análise dos dados.
+2.	Detalhe bem no arquivo jupyter notebook quais foram as suas descobertas.
+3.	Envie seu código fonte com o nome do arquivo nesse padrão “seu_nome_completo.ipynb”.
+
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!

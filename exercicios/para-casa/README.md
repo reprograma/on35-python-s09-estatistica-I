@@ -10,11 +10,12 @@ Suponha que você trabalhe em uma equipe de vendas e recebeu uma lista de vendas
 
 ## Conjunto de Dados
 Os dados estão disponíveis em formato csv (‘vendas_ficticias.csv’) e contêm as seguintes informações para cada venda:
-•	Data da venda
-•	Valor da venda
-•	Vendedor
-•	Quantidade vendida
-•	Produto
+
+  •	Data da venda
+  •	Valor da venda
+  •	Vendedor
+  •	Quantidade vendida
+  •	Produto
 
 ## Perguntas para responder
 1.	Calcular a média, mediana, mínimo, máximo e desvio padrão dos valores das vendas e quantidade vendida.

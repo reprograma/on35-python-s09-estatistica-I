@@ -2,79 +2,109 @@
   <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
 </h1>
 
-# Tema da Aula
+<h1 align="center">  Estatística com Python: Probabilidade e Amostragem 📊 </h1>
+<h3 align="center">  Turma ON35 | Python | Semana 09 | 2024 | Professora Deborah Foroni  </h3>
 
-Turma Online X | Semana X | 202X | Professora X
+<br>
 
-### Instruções
-Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras intrucoes caso necessario]
 
-### Resumo
-O que veremos na aula de hoje?
-* [Tema1](#tema1)
-* [Tema2](#tema2)
-* [Tema3](#tema3)
+## 1.	Importância da Estatística para Analistas de Dados
 
-## Conteúdo
-### Tema1 
-1. [Tópico 1](#topico1)
-2. [Tópico 2](#topico2)
-### Tema2 
-1. [Tópico 3](#topico3)
-   * [Subtópico 1](#subtopico1)
-   * [Subtópico 2](#subtopico2)
-   
-### Tema3
-1. [Tópico 4](#topico4)
+    •	Interpretar e analisar dados
+    •	Entender padrões, testar hipóteses e fazer previsões
 
-### Tema1 
+## 2.	Razões para Aprender Estatística
 
-#### Topico1
+    1.	Estatística Descritiva: Descreve e resume dados.
+    2.	Inferência: Faz inferências sobre uma população a partir de uma amostra.
+    3.	Modelagem: Constrói modelos para prever comportamentos futuros.
+    4.	Teste de Hipóteses: Testa suposições e verifica teorias.
+    5.	Identificação de Anomalias: Detecta outliers ou anomalias nos dados.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices. Nunc ante massa, dictum eget justo eget, feugiat tincidunt metus.
+## 3.	Tipos de Dados
 
- #### Topico2
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  - Donec erat mauris, laoreet in tortor vel
-  - Nunc ante massa, dictum eget justo eget, feugiat tincidunt.
+    o	Quantitativos (Numéricos)
+         Contínuos: Valores em um intervalo contínuo (altura, distância)
+        Discretos: Valores em um conjunto especificado (contagem de eventos)
+        
+    o	Qualitativos (Categóricos)
+        Nominal: Sem ordem (estado de residência)
+        Ordinal: Com ordem (avaliação de desempenho)
+        Binário: Apenas duas categorias (Verdadeiro/Falso)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit.
+## 4.	Medidas de Tendência Central e Medidas de Dispersão
 
-### Tema2
-#### Topico3
-* [Subtópico 1](#subtopico1)
-* [Subtópico 2](#Subtopico2)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+    Média
+        o	Valor central dos dados.
+        o	Fórmula: Soma dos valores / Número de observações
+        o	Exemplo: Média das idades = (35 + 45 + 23 + 25 + 37)/5 = 33.0
 
-##### Subtopico1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+    Mediana
+        o	Valor que divide um conjunto ordenado em duas partes iguais.
+        o	Fórmula: Mediana = valor central (número ímpar) ou média dos dois valores centrais (número par)
+        o	Exemplo: Mediana das idades = 35
+    Moda
+        o	Valor mais frequente.
+        o	Exemplo: Moda da escolaridade = 5
 
-##### Subtopico2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+    Variância
+        o	Mede a dispersão dos dados em relação à média.
+        o	Fórmula: Soma das diferenças ao quadrado / Número de observações
+        o	Exemplo: Variância das idades = 82
 
-### Tema3
-#### Topico4
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices.
+    Desvio Padrão
+        o	Raiz quadrada da variância.
+        o	Exemplo: Desvio padrão das idades = 9.06
 
-***
-### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
+    Função describe do Pandas
+        •	Retorna estatísticas descritivas resumidas para um dataframe.
+            o	Para colunas numéricas: count, mean, std, min, 25%, 50%, 75%, max
+            o	Para colunas de objetos: count, unique, top, freq
 
-### Material da aula 
+## 5. Probabilidade
 
-### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+    Definição
+        o	Medida da chance de um evento ocorrer (0 a 1).
+        o	Evento: Resultado específico ou conjunto de resultados possíveis.
+    
+    Tipos de Probabilidade
+        o	Clássica: Razão entre resultados favoráveis e total de resultados.
+        o	Frequentista: Frequência relativa de um evento em um grande número de repetições.
+        o	Subjetiva: Baseada na opinião ou experiência pessoal.
+
+    Regras de Probabilidade
+        o	Soma: Probabilidade da união de eventos mutuamente exclusivos.
+        o	Multiplicação: Probabilidade da interseção de eventos independentes.
+        o	Condicional: Probabilidade de um evento ocorrer dado que outro evento já ocorreu.
+
+## 6. Amostragem
+
+
+    Amostragem Aleatória Simples:
+    Cada elemento da população tem a mesma chance de ser selecionado.
+
+    Amostragem Estratificada:
+    Divisão da população em subgrupos homogêneos (estratos) e seleção aleatória dentro de cada estrato.
+
+    Amostragem por Conglomerados:
+    Divisão da população em grupos naturais (conglomerados) e seleção aleatória de alguns conglomerados para análise completa.
+
+    Amostragem Sistemática:
+    Seleção do primeiro elemento aleatoriamente e dos demais a intervalos regulares.
+
+---
+
+### 🔗 Links Úteis
+
+1. **[Doc Numpy](https://numpy-org.translate.goog/devdocs/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=sc)** :  A base para cálculos numéricos com arrays multidimensionais, fornecendo funções para média, mediana, moda, variância e desvio padrão.
+2. **[Doc Pandas](https://pandas-pydata-org.translate.goog/docs/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=sc)** : Permite manipular e analisar dados estruturados em forma tabular, facilitando cálculos e visualização.
+3. **[Doc Random](https://docs.python.org/pt-br/3/library/random.html)** : Usada para gerar números aleatórios e simular eventos aleatórios, como o lançamento de uma moeda.
+4. **[Doc Scipy.stats](https://docs-scipy-org.translate.goog/doc/scipy/reference/stats.html?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=sc)** : Usada para cálculos estatísticos mais avançados, incluindo a função mode() para encontrar a moda e o cálculo de intervalos de confiança.
+
+
+<br>
 
 
 <p align="center">
 Desenvolvido com :purple_heart:  
 </p>
-

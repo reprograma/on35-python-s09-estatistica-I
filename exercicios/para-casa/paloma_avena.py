@@ -17,10 +17,6 @@
 #   •	Quantidade vendida
 #   •	Produto
 
-# ## Perguntas para responder
-# #1.	Calcular a média, mediana, mínimo, máximo e desvio padrão dos valores das vendas e quantidade vendida.
-# # 2.	Qual produto que mais vendeu? (Usar a moda para identificar).
-
 
 import pandas as pd #importar biblioteca pandas
 from tabulate import tabulate #importar biblioteca para estilizar os dados
@@ -47,7 +43,8 @@ def dados_estatisticos(x,y,z):#declarando função com os parametros os 3 parame
 
     print("\n-------------------------Quantidade Vendida-------------------------\n")
 
-    #1. Média, mediana, máximo, mínimo e desvio padrão das quantidades vendidas
+    #1. Calcular a média, mediana, mínimo, máximo e desvio padrão dos valores das vendas e quantidade vendida.
+    
     avg_amount = round(y.mean(),2)
     median_amount = round(y.median(),2)
     max_amount = round(y.max(),2)
@@ -61,7 +58,9 @@ def dados_estatisticos(x,y,z):#declarando função com os parametros os 3 parame
     print(f'Desvio Padrão das Qtds Vendidas: {standard_deviation_amount}')
 
     print("\n-------------------------Produto + Vendido-------------------------\n")
-    #2. Qual produto mais vendeu?
+   
+    #2. Qual produto que mais vendeu? (Usar a moda para identificar).
+
     best_sold = round(z.mode(),2)
     print(f'Produto mais vendido: {best_sold}')
 

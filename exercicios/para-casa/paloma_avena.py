@@ -1,4 +1,14 @@
-## Conjunto de Dados
+# # Exercício de Casa 🏠 
+
+# ## Objetivo
+
+# Realizar uma análise estatística descritiva dos dados de vendas.
+
+# ## Descrição do Desafio
+
+# Suponha que você trabalhe em uma equipe de vendas e recebeu uma lista de vendas fictícias de diferentes produtos ao longo de vários meses. Seu objetivo é realizar uma análise estatística descritiva dos valores das vendas.
+
+# ## Conjunto de Dados
 # Os dados estão disponíveis em formato csv (‘vendas_ficticias.csv’) e contêm as seguintes informações para cada venda:
 
 #   •	Data da venda
@@ -7,9 +17,10 @@
 #   •	Quantidade vendida
 #   •	Produto
 
+# ## Perguntas para responder
+# #1.	Calcular a média, mediana, mínimo, máximo e desvio padrão dos valores das vendas e quantidade vendida.
+# # 2.	Qual produto que mais vendeu? (Usar a moda para identificar).
 
-# 1.	Calcular a média, mediana, mínimo, máximo e desvio padrão dos valores vdas vendas e quantidade vendida.
-# 2.	Qual produto que mais vendeu? (Usar a moda para identificar).
 
 import pandas as pd #importar biblioteca pandas
 from tabulate import tabulate #importar biblioteca para estilizar os dados
